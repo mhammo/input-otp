@@ -287,6 +287,10 @@ type OTPInputProps = {
   //   }
   // }`
   noScriptCSSFallback?: string | null
+
+  // If you are using a Content-Security-Policy (CSP), you can specify a nonce value
+  // so that the inline styling is applied correctly.
+  nonce?: string
 }
 ```
 
